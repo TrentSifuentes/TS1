@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  text-align: center;
+  color: #40514E;
+}
+
+p {
+  font-family: 'Merriweather', serif;
+}
+
+h2{
+  color: #212121;
+}
+
+/* --------- CLASS ------*/
+
+.btn {
+  background: white;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Courier New;
+  color: black;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  position: relative;
+  top: 10px;
+  margin: 20px 0;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #b2ebf2;
+  text-decoration: none;
+}
+
+.top-container {
+  background-color: #b2ebf2;
+  padding: 100px 0 0 0;
+  margin: 0;
+  height: 425px;
+  position: relative;
+}
+
+.clouds1 {
+  width: 200px;
+  height: 125px;
+  position: absolute;
+  right: 10%;
+  top: 10%;
+}
+
+.clouds2 {
+  width: 200px;
+  height: 125px;
+  position: absolute;
+  left: 10%;
+  bottom: 50%;
+}
+
+.copyright {
+  margin: 10px 0 0 0;
+  color: white;
+}
+
+.footer-link{
+  text-decoration: none;
+  color: #b2ebf2;
+  display: inline-block;
+  font-weight: bold;
+  margin: 30px 15px 5px 15px;
+}
+
+.heading-text {
+  font-weight: bold;
+}
+
+.pyramids {
+  width: 750px;
+  height: 500px;
+}
+
+.profile-photo {
+  margin: 0 0 20px 0;
+  border-radius: 100%;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  top: 15px;
+}
+
+.middle-container {
+  background-color: #ff5722;
+}
+
+.my-skills{
+  color: white;
+}
+
+.skill-name {
+  font-family: arial black, sans-serif;
+  color: #212121;
+}
+
+.skill-p{
+  line-height: 2;
+}
+
+.skill-row{
+  margin: 100px auto 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.web-design-img {
+  float: left;
+  margin: 0 25px;
+  width: 25%;
+}
+
+.web-development-img {
+  float: right;
+  margin: 0 25px;
+  width: 25%;
+}
+
+.bottom-container {
+  background-color: #dd2c00;
+}
+
+/* ---------- ID -------*/
+#heading {
+  margin: 0 auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 50px;
+}
